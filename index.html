@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Symposium at OHBM 2021: Mapping cortical morphology in the human and non-human primate brain and relations to function</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet" type="text/css">
+  <link href="https://cdn.jsdelivr.net/npm/quasar@1.12.0/dist/quasar.min.css" rel="stylesheet" type="text/css">
+  <link href="https://cdn.jsdelivr.net/npm/@quasar/quasar-ui-qflashcard@1.0.1/dist/index.min.css" rel="stylesheet" type="text/css">
+
+  <link rel='shortcut icon' type='image/x-icon' href="/favicon.svg" />
+  <style>
+    [v-cloak] {display: none}
+
+    .my-logo-font {
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+    .my-font {
+      font-family: 'Roboto', sans-serif;
+    }
+    .my-image {
+      /* filter: grayscale(70%) brightness(80%) contrast(120%); */
+      filter: grayscale(70%) brightness(120%) contrast(100%);
+      opacity: 0.8;
+      width: 100%;
+    }
+
+    .box-shadow:hover {
+      box-shadow: 3px 3px 3px rgba(0,0,0,0.2) !important;
+    }
+
+    .intro {
+      background: url(./img/pattern1.png);
+      background-size: cover;
+      background-position: 50%;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+    }
+
+    .custom_tab {
+      width: 80px;
+      min-height:50px !important;
+      color: white
+    }
+  </style>
+  <style>
+    html, body {
+      margin:0;
+      font-size: 18px;
+    }
+    .b {
+      fill: rgb(59,81,94);
+    }
+    .a {
+      fill: rgba(83,91,96,0.5);
+    }
+  </style>
+
+<script>
+  window.quasarConfig = {
+    brand: {
+      primary: '#FFFFFF',
+      secondary: '#26A69A',
+      accent: '#8c1aff',
+
+      dark: 'rgb(66,67,68)',
+
+      positive: '#21BA45',
+      negative: '#8c1aff',
+      info: '#31CCEC',
+      warning: '#F2C037'
+    }
+  }
+  </script>
+</head>
+
+<body>
+    <div id="q-app">
+
+    <q-layout v-cloak view="lHh lpr lFf">
+
+      <q-page-container>
+        <q-page>
+
+          <!-- Image header section -->
+          <div class="q-px-none bg-primary" >
+            <div class="q-px-none q-pt-none bg-primary" id="sulci" >
+
+              <div class="row justify-left" >
+                <!-- <div class="col-md-1" ></div> -->
+
+                <div class="q-pt-none q-px-none col-12 col-lg-12 col-md-12" >
+                  <q-img class="q-px-none q-py-sm my-image" style="width:100%;" src="./img/1_maca9.png" >
+                  </q-img>
+                </div>
+
+                <!-- <div class="col-md-1" ></div> -->
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Page 1 -->
+          <div class="q-px-md bg-primary" >
+
+            <div class="q-px-xl q-pt-xl bg-primary" id="page_1" >
+
+              <!-- Titel -->
+              <div class="row justify-left" >
+                <div class="col-md-1" ></div>
+
+                <div class="q-py-lg col-12 col-lg-6 col-md-9" >
+                  <span class="text-left e" style="font-size: 20px;">Mapping cortical morphology in the human and non-human primate brain and relations to function.
+                  </span>
+                </div>
+
+                <div class="col-md-2" ></div>
+              </div>
+
+              <!-- Authors -->
+              <div class="q-pb-md row justify-left">
+
+                <div class="col-md-1"></div>
+
+                <div class="q-py-sm col-12 col-lg-6 col-md-9">
+                  <span class="text-center text text-weight-light">
+                    Symposium at OHBM 2021 organized by Trisanna Sprung-Much, Nicole Eichert, & Michael Petrides<br /><br />
+
+                    This symposium will provide an overview of some of the cutting-edge research on cortical morphology, research that has provided an anatomical framework with which to study the functional organization of the cortex. Studies presented here will provide examples of morphology-to-function relationships that are valuable for analyses that aim to capture individual patterns of brain organization at the single subject level. The comparative anatomical studies of non-human primates provide compelling insight into the evolution of the cerebral cortex and the emergence of higher cognitive processes.
+                  </span>
+                </div>
+
+                <div class="col-md-2"></div>
+              </div>
+
+              <!-- Links to abstract pdf and sparkle session -->
+              <div class="row justify-left">
+
+                <div class="col-md-1"></div>
+
+                <div class="col-12 col-lg-6 col-md-9 text-left">
+                  <q-btn flat dense no-caps class="text-weight-regular q-mr-lg q-px-md q-py-none" type="a" target="_blank" href="https://ohbm.sparkle.space/in/symposiumhall1" size="lg"
+                    :style="'background:'+ theme_color +'; color: white; font-size: 21px;'" label="Come to our session on sparkle ✨" >
+                  </q-btn>
+                  <br /><span style="margin-top:15px;font-weight: 300;">June 21: New York: 7pm EDT; Paris: 1am CEST +1; Beijing: 7am CST +1</span>
+
+                  <!-- <q-btn flat dense no-caps class="text-weight-regular q-px-md q-py-none" type="a" target="_blank" href="https://www.humanbrainmapping.org/files/2021%20Annual%20Meeting/1017_Sy_Mapping.pdf" size="lg"
+                    :style="'background:'+ theme_color +'; color: white'" label="Summary of talks for more details" >
+                  </q-btn> -->
+                </div>
+
+                <div class="col-12 col-md-2"></div>
+              </div>
+
+              <!-- Text Section 1: Intro -->
+              <div class="q-pb-none row justify-left">
+
+                <div class="col-md-1"></div>
+
+                <div class="q-pt-xl col-12 col-lg-6 col-md-9">
+                  <span class="text-center text-body1 text-weight-light">‪Presentations<br />
+                    <a href="https://twitter.com/Trisanna3" target="_blank" class="text-center text-black text text-weight-medium" style="text-decoration: none; cursor: pointer">Trisanna Sprung-Much: </a>Investigations of sulcal morphology in the human brain and relations to specific aspects of functional processing <br/>
+                    <b>Céline Amiez: </b>Sulcal organization in the medial frontal cortex provides insights into primate brain evolution<br />
+                    <a href="https://twitter.com/olivecoulon" target="_blank" class="text-center text-black text text-weight-medium" style="text-decoration: none; cursor: pointer">Olivier Coulon: </a>Morphological features of sulci and their relationship to function and connectivity <br/>
+                    <a href="https://twitter.com/katjaQheuer" target="_blank" class="text-center text-black text text-weight-medium" style="text-decoration: none; cursor: pointer">Katja Heuer: </a>Mechanical morphogenesis and the development and evolution of primate cortical folding
+                  </span>
+                </div>
+
+                <div class="col-md-2"></div>
+              </div>
+
+              <!-- Image 1 -->
+              <!-- <div class="row justify-left" >
+                <div class="col-md-1" ></div>
+
+                <div class="q-pt-md q-px-none col-12 col-lg-10 col-md-9" >
+                  <q-img class="q-px-xl q-pt-md q-py-sm" style="width:35%;" src="./img/1_OHBM.png" >
+                  </q-img>
+                </div>
+
+                <div class="col-md-1" ></div>
+
+              </div> -->
+
+            </div>
+          </div>
+
+          <!-- Page 2 -->
+          <div class="q-px-md bg-primary" >
+            <div class="q-px-xl q-pt-xl bg-primary" id="page_2" >
+
+              <!-- Text section 2 -->
+              <div class="row justify-left" >
+                <div class="col-md-1" ></div>
+
+                <div class="col-md-1" ></div>
+              </div>
+
+              <!-- Framapad section -->
+              <div class="row justify-left" >
+                <div class="col-md-1" ></div>
+
+                <div class="q-pb-lg q-px-none col-12 col-lg-10 col-md-9" >
+                  <!-- <q-video class="q-pa-none" style="width:90%;height:620px;" src="./img/video.mp4" autoplay loop muted>
+                  </q-video> -->
+                  <!-- <video width="100%" poster="./img/video.jpg" autoplay loop muted>
+                    <source type="video/mp4" src="./img/video.mp4">
+                  </video> -->
+                  <iframe name="embed_readwrite" src="https://mensuel.framapad.org/p/corticalMorphology?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false" width="100%" height="600" frameborder="0"></iframe>
+                </div>
+
+                <div class="col-md-1" ></div>
+
+              </div>
+
+            </div>
+          </div>
+
+
+        </q-page>
+      </q-page-container>
+    </q-layout>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@^2.0.0/dist/vue.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/quasar@1.12.0/dist/quasar.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@quasar/quasar-ui-qflashcard@1.0.1/dist/index.umd.min.js"></script>
+
+  <script>
+    const { getScrollTarget, setScrollPosition } = Quasar.scroll
+
+    app = new Vue({
+      el: "#q-app",
+      data() {
+        return {
+          selected_tab: 't_0',
+          bg_color: '#4b4f51',
+          hover: false,
+          active: false,
+          theme_color: '#8c1aff',
+          background_style: '#8c1aff',
+          paper_heading_1: [],
+          paper_heading_color_1: '#4b4f51',
+          headerState: false,
+        }
+      },
+      methods: {
+        scrollToElement(id) {
+          let el = document.getElementById(id)
+          const target = getScrollTarget(el)
+          const offset = el.offsetTop + 3
+          const duration = 900
+          setScrollPosition(target, offset, duration)
+        },
+        goTo(url){
+          window.location.href = url;
+        },
+        scrollFunction (pos) {
+          this.headerState = (pos>300);
+        }
+      }
+    });
+
+  </script>
+
+
+</body>
+
+</html>
